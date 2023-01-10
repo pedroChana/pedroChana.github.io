@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        <title>Pedro Chana´s Fab Academy website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Fab Academy</strong> 2022</a>
+									<ul class="icons">
+										<li><a href="https://twitter.com/pedrochanav" class="fab fa-twitter"></a></li>
+										<li><a href="https://www.linkedin.com/in/pedro-chana-valero-3b9679123/" class="fab fa-linkedin"></a></li> 
+                                    	<li><a href="https://www.instagram.com/pedrochanav/" class="fab fa-instagram"></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+				            <section>
+                            
+                            <span class="image main"><img src="images/01pic10.png"/></span>
+                            
+							 <header class="main">
+                               <h2> Week01: Project Management and Web Development</h2>
+                             </header>  
+                        	<hr class="major"/>
+                                
+                               <h3> Getting started with Git!</h3>
+                                
+                                <p>If you explore <a href="https://fabacademy.org/" target="_blank">Fabacademy webpage</a> you´ll have access to hundreds of detailed repositories of how to do, step by step, tutorials. But, my main goal is to give you an insight of my impressions and thoughts of how I managed to overcome mistakes and failures, and of course my delights and achievements! with my Windows64x laptop.</p>
+                                  
+                               
+                                <img src="images/01pic06.png"/>
+                                
+                                <p>The way you prepare and organize yourself, and your time, will determine each week´s results. As for me, as you can chek in my <a href="about.html" target="_blank">personal info</a>, I have <b>0 background</b> or experience in, coding or web development. <u>So my planning for this week is as follows:</u></p> 
+                               
+                                <ol>
+                                 <li>Retrieve tecnical documentation of the programs that i´m going to use.</li>
+                                 <li>Create cheatsheets, as I go, to have a quick access to useful commands.</li>
+                                 <li>Install, execute and begin to work!</li>
+                               </ol>             
+                             
+                                <p>I know its a very personal approach but It works for me, at least it makes me feel confident. You have to mentalize yourself that you are going to make mistakes, so it´s better to be prepared to learn from them.</p>
+                                <p>As you can read in <a href="shortcutsandextras.html">shortcuts and extras</a>, at <b>week 0</b> (bootcamp week), I already had installed and configured all the accounts and programs needed for this week</p>
+                                
+                                <p>Getting hands-on with Gitbash, wasn´t easy at first, but once you committed all possible mistakes (name any of them, i´ve done it for sure), and you find out that there´s a command for even the most-broken branch, you begin to get more comfortable.</p>
+                                
+                                <p><b>Here you have the most important steps I had to deal with Git,(running on Windows 64), so far:</b></p>
+                                
+                                <p>After installing Git, I hadn´t the slightest idea of what to do with it, so I checked the Git tutorial at the FabAcademy2022 Shedule, and had a look at other years students repositories such as: <a href="https://fabacademy.org/2020/labs/leon/students/adrian-torres/">Adrián Torres</a>, where you can find a useful Git Simple Cheat Sheet, <a href="https://fabacademy.org/2021/labs/waag/students/nadieh-bremer/">Nadieh Bremer </a>, and <a href="https://fabacademy.org/2019/labs/leon/students/alejandro-ausejo/">Alejandro Ulecia</a>. Once with more info, I decide to install a local repository in my laptop.</p>
+                                
+                                <p> After getting my username, email, SSHKey and shared my public key with Gitlab server I had my first <b>big issue</b>, "<u> the authentity og host (gitlab.com) can´t be established</u>. This is the first time that I had a close call heart attack.</p>
+                                
+                                <p><img src="images/01pic11.png" alt="githost error"></p>
+                                
+                                <p>This issue took up a lot of my time, although in the end, it was sorted unintentionally. As I was explaining the issue and repeating, fot the 5th time, all the steps to one of my FabLab teammates, I changed the repository direction to another folder and, voilá, it just... worked! Another simple action that gave me headaches, at the begging, whas how to navigate through Gitbash, so I found out this:</p>
+                                   
+                                   <p><li><b>WITH KEYBOARD:</b>SHIFT + ARROWS to select area + ENTER to copy. Then INSERT to paste.</li>
+                                       <li><b>WITH MOUSE:</b>LEFT BUTTON + select area to copy, and RIGHT BUTTON to paste.</li></p>
+                                
+                                <p>Once I established contact with the Gitlab server, and my student repository, I began to try different git commands, you´ll find them all at <a href="shortcutsandextras.html">Shortcuts and extras</a>, and was encouraged to practice with simple modifications in my repository with no major issues. As you can see from my webpage I decided to use HMTL files, <b><u>what could go wrong..?</u></b>, so I checked a few other repositories in Gitlab, such as <a href="https://gitlab.fabcloud.org/academany/fabacademy/2021/labs/aalto/students/kitija-kuduma">Kitija Kumuda</a> and watching the version control recitation of the past two years, so I:</p>
+                                
+                                <p>
+                                <li>Changed .gitlab-ci.yml editing with the template of the Gitlab server, and this <a href="https://medium.com/turpialdev/how-to-host-an-html-page-in-gitlab-pages-47bbfbdeb4d1">How to host HTML page in Gitlab.</a></li>
+                                <li>Added my index.html page at Gitlab server and succesfully accomplished my first view of my page, but mith no complements.</li>
+                                </p>  
+                                                                                            
+                                <p><b>IMPORTANT NOTE: Take your time to enjoy when you accomplish a task with no mayor issues.. you´ll need to go back to those memories when things get worse.</b></p>
+            
+                                <p>At this moment I got so animated that I tried to upload to the server all my webpage documents without checking out size and disk usage <u>(du -sh*)</u>. Luckily for me it didn´t pass the 10Mb limit establisehd by Gitbash, so I had to practice with my Git Cheat Sheet to get it all back to normal: git reset.</p>
+                                    
+                                <p>Even do, I had everything running, I wanted to apply some changes in the Gitlab server regarding where I was going to allocate my html web documents, so during that process the name of the file .gitlab-ci.yml changed to gitlab-ci.yml.(I´m still wondering how?). But that caused a <b><u>FATAL ERROR</u></b> in the pipeline:</p>
+                                    
+                                <p><img src="images/01pic12.png" alt="githost error"></p>
+                                
+                                <p>To solve this unexpected situation I attempted every known way to restore this error (Without knowing the cause, of course) and this is where I found out you can be calm.. Gitbash is unbreakable, the worst thing that can happen is that you use a <b>reset --hard system/origin</b> and start all over again, but that even didn´t work! At this stage, I leaned on my instructor Alberto, not to ask for the solution, but for advice, so he patiently supervised my steps until I finally found the error in the CI/CD section of the Gitlab server, and with the help of Google, found the solution: Substitute the name of the file to its original with the dot first.</p>
+                                
+                                <p><b>As a reflection of this setback, that took me nearly half a day and 5 years of health, I´ve come to the understanding that (maybe not suitable for others) I preffer to invest more time in understanding how machines, programs, tools work, errors included, at first. It causes you to go very very slow at the beggining, but, it gives you a burst of confidence and speeds x10 the rest of the time you have to use them. So at this point I can say i´ve reached, fulfilled and completed more than one spiral with Git.</b></p>
+                                                                                                
+                                <img src="images/01pic13.png" alt="githost error">
+                                
+                                <hr class="major"/>
+                            
+                                <h3> Preparing HTML web with Brackets</h3>
+                                
+                                <p> After my intense experience with git, i´ve had 0 issues since, and now I started to work on my html web using <a href="https://brackets.io/"> Brackets</a>, a simple and effective open source html editor. With Brackets i´ve had no setbacks, it easy to use once you get the hang of the commands, that you can also find <a href="shortcutsandextras.html">Shortcuts and extras</a>. So the steps to work on my html web were:
+                                <li> Downloaded and installed Brackets.</li>
+                                <li> Downloaded an HTML template from <a href="https://html5up.net/"> HTML5UP.</a></li>
+                                <li> Open the template with Brackets and start editing.</li>
+                                </p>
+                                
+                                <p><img src="images/01pic14.png" alt="Brackets"></p>
+                                
+                                <p> Finally, the last program i´ve installed to check my image size and resize if nedded is the <a href="https://imagemagick.org/index.php">ImageMagick Display</a>, and slowly at first, but quicker at the end i´m finishing this first weeks assignmet as you can see!</p>
+                                
+                                <p> So, as for final impressions: It hasn´t been a bad start for having 0 experience and managing time with my full time job and family responsibilites. It´s true that i´ve invested much more time than I expected, but as I said before i´ve gained speed progresively and finished confident, and happy with what i´ve achieved so far, and willing to do it better. If I have more time in the near future (do it seems not possible..) I would like to organise my Gitlab server better and improve my html editing skills and therefore wy web page</p>
+                                
+                                <hr class="major"/>
+                                
+                                <span class="image main"><img src="images/01pic19.jpg" alt="" /></span>
+                                    <header class="main">
+										<h2>Week01(part 2): Principles and practices:</h2>
+                                                                                                                                          
+									</header>
+									
+									<hr class="major" />
+                                   
+                                           
+                                     <h3> CONTEXT AND CONCEPT IDEA:</h3>
+                                    
+                                    
+                                    <h4>Objetive measurement of musculoskeletal biomarker/s in non-clinical environments</h4>
+									
+                                    <p> We are getting older, we live longer and are progressively more and more connected. This, obligues healthcare professionals, in collaboration with other areas of knowledge, to think about new and alternative diagnostic, pronostic and follow-up procedures, that can cover all patient´s needs. Nowadays, not all healthcare assessment are done in clinical settings, the need to be able to measure them in a real environments, what is known as real worl data (RWD), has arisen.</p>
+                                    <p>In order to do so, <b>one of the main musculoskeletal biomarkers</b>, (an objective data/variable that by itself is capable of having a significant impact on healthcare decision making and therefore on a person´s health), is the measurement of maximum isometric strength, or commonly called <b> Grip strenght.</b></p>
+                                    
+                                    <p><img src="images/01pic18.png" width="700" height="300"></p>
+                                    
+                                    <p><b>Grip strength</b> is one of the main biomarkers of frailty, an indicator of good or bad functional prognosis, and in <a href="https://pubmed.ncbi.nlm.nih.gov/29739772/"> certain populations</a> even of death. At present, grip strength is measured, in clinical settings, in a standardized way with dynamometry (Kg/cm2), so, it would be of interest and <u>significantly useful</u> to be able to measure it in non clinical environments at a low cost, and in a sustainable way, with the use of digital fabrication. This approach would facilitate its usability to healthcare professionals, with the purpose of having a clinical significant impact on patients health.</p>
+                                    
+                                                                                                                                    
+                                    <p>Actually, there are few studies that explore alternative ways of measuring grip strenght usign frugal innovation, such as:</p>
+                                    <li><a href="https://www.worldscientific.com/doi/abs/10.1142/S0219519416500330">Arduino based hand dynamometer</a></li>
+                                    <li>Monitoring of muscular contraction based on a surface pressure sensor</li>
+                                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/29971790/"> 3D printed sensor hand strenght assessment</a></li>
+                                    <li><a href="https://ieeexplore.ieee.org/document/7006267">Use of flex-force sensors</a></li>
+                                                                        
+                                    <hr class="major" />
+                                    
+                                    <h3>Final project idea</h3>
+                                    
+                                    <p><b>F</b>unctional.<b> E</b>valuation. e-<b>D</b>evice.</p>
+                                    
+                                    <p>As I explained in the previous section, my idea is to create a device, I still haven´t got a final draft because I start from 0, that can <b>initially measure, mainly in frailty patients, grip strenght in a non-clinical environment, displaying, storing and sending it to health care professionals in order to help decision making.</b> I would also like to add the capability of detecting <a href="https://www.jstage.jst.go.jp/article/jpts/31/1/31_jpts-2018-339/_pdf"> minimal clinical important diference (MCID)</a>, and specific movement measurement related to sub-maximum strenght (endurance).</p>
+                                    
+                                   <div class="table-wrapper">
+														<table>
+															<thead>
+																<tr>
+                                                                    <th><b>SPIRAL GOALS</b></th>
+                                                                    <th><b>WORKING RESULTS</b></th>
+																	</tr>
+															</thead>
+															<tbody>
+																<tr>
+                                                                    <td><b>Spiral 1.</b></td>
+																	<td>Design device + Grip strenght measure + display.</td>
+																</tr>
+																<tr>
+                                                                    <td><b>Spiral 2.</b></td>
+																	<td>Grip strenght measure, + display + store in SD card.</td>
+																</tr>
+																<tr>
+                                                                    <td><b>Spiral 3.</b></td>
+																	<td>Capable of detecting MCID + sending information.</td>
+																</tr>
+                                                                <tr>
+                                                                    <td><b>Spiral 4.</b></td>
+																	<td>Add specific movement and tremble measurement.</td>
+																</tr>
+                                                           </table>
+													</div>
+                                                       
+                                    <hr class="major"/>
+                                    
+                                    <h3>First sketches of my final project:01 February 2022</h3>
+                                    
+                                    <p><img src="images/01pic15.jpg" width="500" height="400"/></p>
+                                    
+                                    
+                                    <h3>New sketches of my final project: 06 of February 2022</h3>
+                                    
+                                    <p>As you can see, I´m still not sure of how to finally design my project. My main goal is to keep it as simple as possible, and if possible visually aesthetic. So I´m still researching and documentating ideas and posible designs in order to choose a final one soon. The postive part is that i´ve got very clear what it´s going to do, and what inputs and outputs i´mg going to use, and what esthetical elements I want it to have. </p>
+                                    
+                                    <p>New sketches:</p>
+                                    
+                                     <div class="box alt">
+												<div class="row gtr-50 gtr-uniform">
+                                                    <div class="col-4"><span class="image fit"><img src="images/01pic20.jpg" width="400" height="500"alt="" /></span></div>
+                                                    <div class="col-4"><span class="image fit"><img src="images/01pic21.jpg" width="400" height="500"alt="" /></span></div>
+                                                    
+                                                </div>         
+                                                 
+                                          </div>     
+                                
+                                                              
+                                <p> In relation to how´s my <b>Final Project</b> going, you can check here: <a href="finalproject.html">Go to Final Project.</a> </p>
+                                
+                            </section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="about.html">About me</a></li>
+										<li><a href="weeklyassignments.html">Weekly assignments</a></li>
+										<li><a href="finalproject.html">Final project</a></li>
+										<li><a href="shortcutsandextras.html">Shortcuts and extras</a></li>
+										<li><a href="studentagreement.html">Students Agreement</a></li>
+                                         <li><a href="group%20assignments.html">Group assignments</a></li>
+								    </ul>
+								</nav>
+
+                         <!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:pechava@gmail.com">email me</a></li>
+                                        <li class="icon brands fa fa-gitlab"><a href="https://gitlab.fabcloud.org/academany/fabacademy/2022/labs/uemadrid/students/pedro-chana">Fab Academy</a></li>
+                                    </ul>
+								</section>
+                            
+                             <!-- Section -->
+								<section>
+									
+                               <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+                            </section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

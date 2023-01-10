@@ -1,0 +1,53 @@
+# Pedro Chana´s web
+site_name: Pedro Chana - Fab Academy
+site_description: My personal Fab Academy site
+site_author: Pedro Chana
+copyright: Creative Commons Attribution Non Commercial
+
+site_url: https://fabacademy.org/2022/labs/uemadrid/students/pedro-chana/
+
+extra:
+  # Set your own social media below (or remove)
+  social:
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/fabacademany
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/fabacademany
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fabacademany
+    - icon: fontawesome/brands/linkedin
+      link: "https://linkedin.com/in/academany"
+
+theme:
+  name: material
+  palette:
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: deep
+    accent: indigo
+  font:
+    # See available fonts at https://fonts.google.com/
+    text: Ubuntu
+    code: Ubuntu Mono
+  icon:
+    logo: material/school
+  favicon: images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.instant
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+      enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
+
+markdown_extensions:
+  - extra
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
